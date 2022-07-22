@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h6 {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 10px;
+    color: darkgoldenrod;
+}
+
+.emoji {
+    font-size: 20rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closedEyes {
+    display: none;
+}
+
+.closedMouth {
+    display: none;
+}
+
+.closedEar {
+    display: none;
+}
+
+.active {
+    display: block;
+}
